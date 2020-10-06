@@ -1,0 +1,6 @@
+---
+- name: install and start apache
+  hosts: servidor
+  remote_user: vagrant
+  become: yes
+  

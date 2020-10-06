@@ -1,0 +1,10 @@
+driftfile /car/lib/ntp/drift
+
+restrict 127.0.0.1
+restritc -6 ::1
+
+server {{ntpserver}}
+
+includefile /etc/ntps/crypto/pe
+
+keys /etc/ntp/keys
